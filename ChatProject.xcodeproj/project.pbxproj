@@ -12,6 +12,18 @@
 		FA9DD7E51D10F49200ED5F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9DD7E31D10F49200ED5F62 /* Main.storyboard */; };
 		FA9DD7E71D10F49200ED5F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9DD7E61D10F49200ED5F62 /* Assets.xcassets */; };
 		FA9DD7EA1D10F49200ED5F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9DD7E81D10F49200ED5F62 /* LaunchScreen.storyboard */; };
+		FA9DD7F31D10F87700ED5F62 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA9DD7F21D10F87700ED5F62 /* GoogleService-Info.plist */; };
+		FA9DD7FC1D10F94D00ED5F62 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9DD7F41D10F94D00ED5F62 /* FirebaseAnalytics.framework */; };
+		FA9DD7FD1D10F94D00ED5F62 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9DD7F51D10F94D00ED5F62 /* FirebaseAuth.framework */; };
+		FA9DD7FE1D10F94D00ED5F62 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9DD7F61D10F94D00ED5F62 /* FirebaseDatabase.framework */; };
+		FA9DD7FF1D10F94D00ED5F62 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9DD7F71D10F94D00ED5F62 /* FirebaseInstanceID.framework */; };
+		FA9DD8001D10F94D00ED5F62 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9DD7F81D10F94D00ED5F62 /* GoogleInterchangeUtilities.framework */; };
+		FA9DD8011D10F94D00ED5F62 /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9DD7F91D10F94D00ED5F62 /* GoogleNetworkingUtilities.framework */; };
+		FA9DD8021D10F94D00ED5F62 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9DD7FA1D10F94D00ED5F62 /* GoogleSymbolUtilities.framework */; };
+		FA9DD8031D10F94D00ED5F62 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9DD7FB1D10F94D00ED5F62 /* GoogleUtilities.framework */; };
+		FA9DD8051D10F97C00ED5F62 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9DD8041D10F97C00ED5F62 /* libicucore.tbd */; };
+		FA9DD80B1D1276A100ED5F62 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DD80A1D1276A100ED5F62 /* Message.swift */; };
+		FA9DD80E1D12770400ED5F62 /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DD80D1D12770400ED5F62 /* FirebaseController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,20 @@
 		FA9DD7E61D10F49200ED5F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA9DD7E91D10F49200ED5F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA9DD7EB1D10F49200ED5F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9DD7F21D10F87700ED5F62 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Firebase/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA9DD7F41D10F94D00ED5F62 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Firebase/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		FA9DD7F51D10F94D00ED5F62 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Firebase/FirebaseAuth.framework; sourceTree = "<group>"; };
+		FA9DD7F61D10F94D00ED5F62 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Firebase/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		FA9DD7F71D10F94D00ED5F62 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Firebase/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		FA9DD7F81D10F94D00ED5F62 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Firebase/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		FA9DD7F91D10F94D00ED5F62 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Firebase/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		FA9DD7FA1D10F94D00ED5F62 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Firebase/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		FA9DD7FB1D10F94D00ED5F62 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Firebase/GoogleUtilities.framework; sourceTree = "<group>"; };
+		FA9DD8041D10F97C00ED5F62 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		FA9DD8071D10FA6D00ED5F62 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Firebase/Firebase.h; sourceTree = "<group>"; };
+		FA9DD8081D10FA8F00ED5F62 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = Firebase/module.modulemap; sourceTree = "<group>"; };
+		FA9DD80A1D1276A100ED5F62 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FA9DD80D1D12770400ED5F62 /* FirebaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +55,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9DD8051D10F97C00ED5F62 /* libicucore.tbd in Frameworks */,
+				FA9DD7FC1D10F94D00ED5F62 /* FirebaseAnalytics.framework in Frameworks */,
+				FA9DD7FD1D10F94D00ED5F62 /* FirebaseAuth.framework in Frameworks */,
+				FA9DD7FE1D10F94D00ED5F62 /* FirebaseDatabase.framework in Frameworks */,
+				FA9DD7FF1D10F94D00ED5F62 /* FirebaseInstanceID.framework in Frameworks */,
+				FA9DD8001D10F94D00ED5F62 /* GoogleInterchangeUtilities.framework in Frameworks */,
+				FA9DD8011D10F94D00ED5F62 /* GoogleNetworkingUtilities.framework in Frameworks */,
+				FA9DD8021D10F94D00ED5F62 /* GoogleSymbolUtilities.framework in Frameworks */,
+				FA9DD8031D10F94D00ED5F62 /* GoogleUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +95,46 @@
 				FA9DD7E61D10F49200ED5F62 /* Assets.xcassets */,
 				FA9DD7E81D10F49200ED5F62 /* LaunchScreen.storyboard */,
 				FA9DD7EB1D10F49200ED5F62 /* Info.plist */,
+				FA9DD8091D12767E00ED5F62 /* Model */,
+				FA9DD80C1D1276CD00ED5F62 /* Controllers */,
+				FA9DD7F11D10F86000ED5F62 /* Firebase */,
 			);
 			path = ChatProject;
+			sourceTree = "<group>";
+		};
+		FA9DD7F11D10F86000ED5F62 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DD8081D10FA8F00ED5F62 /* module.modulemap */,
+				FA9DD8071D10FA6D00ED5F62 /* Firebase.h */,
+				FA9DD8041D10F97C00ED5F62 /* libicucore.tbd */,
+				FA9DD7F41D10F94D00ED5F62 /* FirebaseAnalytics.framework */,
+				FA9DD7F51D10F94D00ED5F62 /* FirebaseAuth.framework */,
+				FA9DD7F61D10F94D00ED5F62 /* FirebaseDatabase.framework */,
+				FA9DD7F71D10F94D00ED5F62 /* FirebaseInstanceID.framework */,
+				FA9DD7F81D10F94D00ED5F62 /* GoogleInterchangeUtilities.framework */,
+				FA9DD7F91D10F94D00ED5F62 /* GoogleNetworkingUtilities.framework */,
+				FA9DD7FA1D10F94D00ED5F62 /* GoogleSymbolUtilities.framework */,
+				FA9DD7FB1D10F94D00ED5F62 /* GoogleUtilities.framework */,
+				FA9DD7F21D10F87700ED5F62 /* GoogleService-Info.plist */,
+			);
+			name = Firebase;
+			sourceTree = "<group>";
+		};
+		FA9DD8091D12767E00ED5F62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DD80A1D1276A100ED5F62 /* Message.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FA9DD80C1D1276CD00ED5F62 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DD80D1D12770400ED5F62 /* FirebaseController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA9DD7EA1D10F49200ED5F62 /* LaunchScreen.storyboard in Resources */,
+				FA9DD7F31D10F87700ED5F62 /* GoogleService-Info.plist in Resources */,
 				FA9DD7E71D10F49200ED5F62 /* Assets.xcassets in Resources */,
 				FA9DD7E51D10F49200ED5F62 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +210,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9DD80E1D12770400ED5F62 /* FirebaseController.swift in Sources */,
+				FA9DD80B1D1276A100ED5F62 /* Message.swift in Sources */,
 				FA9DD7E21D10F49200ED5F62 /* ViewController.swift in Sources */,
 				FA9DD7E01D10F49200ED5F62 /* AppDelegate.swift in Sources */,
 			);
@@ -252,10 +328,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChatProject/Firebase",
+				);
 				INFOPLIST_FILE = ChatProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NonsenseInc.ChatProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
@@ -263,10 +344,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChatProject/Firebase",
+				);
 				INFOPLIST_FILE = ChatProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NonsenseInc.ChatProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};
@@ -289,6 +375,7 @@
 				FA9DD7F01D10F49200ED5F62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
