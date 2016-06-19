@@ -24,6 +24,8 @@
 		FA9DD8051D10F97C00ED5F62 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9DD8041D10F97C00ED5F62 /* libicucore.tbd */; };
 		FA9DD80B1D1276A100ED5F62 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DD80A1D1276A100ED5F62 /* Message.swift */; };
 		FA9DD80E1D12770400ED5F62 /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DD80D1D12770400ED5F62 /* FirebaseController.swift */; };
+		FAE67EAE1D15CF1500E302D9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE67EAD1D15CF1500E302D9 /* User.swift */; };
+		FAE67EB01D1760DB00E302D9 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE67EAF1D1760DB00E302D9 /* Groups.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		FA9DD8081D10FA8F00ED5F62 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = Firebase/module.modulemap; sourceTree = "<group>"; };
 		FA9DD80A1D1276A100ED5F62 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		FA9DD80D1D12770400ED5F62 /* FirebaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
+		FAE67EAD1D15CF1500E302D9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FAE67EAF1D1760DB00E302D9 /* Groups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				FA9DD80A1D1276A100ED5F62 /* Message.swift */,
+				FAE67EAD1D15CF1500E302D9 /* User.swift */,
+				FAE67EAF1D1760DB00E302D9 /* Groups.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -213,7 +219,9 @@
 				FA9DD80E1D12770400ED5F62 /* FirebaseController.swift in Sources */,
 				FA9DD80B1D1276A100ED5F62 /* Message.swift in Sources */,
 				FA9DD7E21D10F49200ED5F62 /* ViewController.swift in Sources */,
+				FAE67EAE1D15CF1500E302D9 /* User.swift in Sources */,
 				FA9DD7E01D10F49200ED5F62 /* AppDelegate.swift in Sources */,
+				FAE67EB01D1760DB00E302D9 /* Groups.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

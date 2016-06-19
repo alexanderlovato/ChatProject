@@ -9,7 +9,7 @@
 import Foundation
 import Firebase
 
-class Message: FirebaseType {
+struct Message: FirebaseType {
     
     //MARK: Constants
     private static let kText = "text"
@@ -38,7 +38,7 @@ class Message: FirebaseType {
         return jsonRepresentation
     }
     
-    required convenience init?(dictionary: [String : AnyObject], identifier: String) {
+    init?(dictionary: [String : AnyObject], identifier: String) {
         guard let text = dictionary[Message.kText] as? String, timeStamp = dictionary[Message.kTimestamp] as? NSDate, groupIdentifier = dictionary[Message.kGroupIdentifier] as? String, senderID = dictionary[Message.kSenderID] as? String else { return nil }
         
         self.init(text: text, timeStamp: timeStamp, groupIdentifier: groupIdentifier, senderID: senderID)
